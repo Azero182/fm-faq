@@ -60,6 +60,7 @@ h1 {
     font-size: 2rem;
     margin-bottom: 2rem;
     color: hsl(238, 29%, 16%);
+
 }
 .box {
     width: 100%;
@@ -95,4 +96,12 @@ h1 {
 
 .content:hover {
     color: hsl(14, 88%, 65%);
+}
+.unhidden .title{
+    color: black;
+    font-weight: bold;
+    font-size: 1rem;
+}
+.unhidden img {
+    transform: rotate(180deg);
 }
