@@ -10,16 +10,17 @@
     <link rel="stylesheet" href="styles.css">
     <title>Faq</title>
 </head>
-
 <body>
     <img id='icon-box' src="./illustration-box-desktop.svg" alt="illustration-box-desktop">
     <main>
         <div class="icon">
             <picture class="bg">
-                <img src="./bg-pattern-desktop.svg" alt="background">
+                <source media="(max-width:500px)" srcset="./bg-pattern-mobile.svg" class="bg">
+                <img media="(min-width:500px)" src="./bg-pattern-desktop.svg" alt="backgroung">
             </picture>
             <picture class="icon-women">
-                <img src="./illustration-woman-online-desktop.svg" alt="illustration-woman-online-desktop">
+                <source media="(max-width:500px)" srcset="./illustration-woman-online-mobile.svg">
+                <img media="(min-width:500px)" src="./illustration-woman-online-desktop.svg" alt="illustration-woman-online">
             </picture>
         </div>
         <div class="faq">
