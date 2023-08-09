@@ -1,0 +1,53 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body {
+    display: flex;
+    width: 1440px;
+    height: 800px;
+    font-size: 10px;
+    background-image:linear-gradient(hsl(273, 75%, 66%) 0%, hsl(240, 73%, 65%) 100%);
+    align-items: center;
+    margin: 0 auto;
+}
+main {
+    display: flex;
+    width: 70%;
+    height: 70%;
+    align-items: center;
+    background-color: hsl(240, 5%, 91%);
+    margin: 0 auto;
+    border-radius: 15px;
+    overflow: hidden;
+}
+.icon {
+    width: 50%;
+    height: 100%;
+}
+.bg {
+    width: 100%;
+    height: 100%;
+    position: relative;
+    top: -55%;
+    left: -115%;
+    overflow: hidden;
+}
+.icon-women {
+    position: relative;
+    top: -157%;
+    left: -17%;
+    overflow: hidden;
+}
+#icon-box {
+    position: relative;
+    left: 15.15%;
+    top: 1.5%;
+    z-index: 2;
+    background-color: transparent;
+}
+.faq {
+    width: 50%;
+    padding: 1rem;
+}
